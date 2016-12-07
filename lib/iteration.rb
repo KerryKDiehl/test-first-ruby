@@ -101,7 +101,7 @@ class Array
 
   def my_map(&proc)
     new_arry = []
-    self.my_each {|x| new_arry << proc.call(x) }
+    self.my_each { |x| new_arry << proc.call(x) }
     new_arry
   end
 
@@ -116,7 +116,7 @@ class Array
   end
 
   def my_inject(n=0,&proc)
-    sum=n
+    sum = n
     self.my_each do |x|
       sum = proc.call(sum,x)
     end
@@ -126,5 +126,5 @@ end
 
 
 def concatenate(arr)
-  arr.inject {|string, word| string + word}
+  arr.inject { |string, word| string + word }
 end
