@@ -1,5 +1,4 @@
 require 'iteration'
-
 require "time"
 
 describe 'benchmark' do
@@ -12,7 +11,6 @@ describe 'benchmark' do
     expect(benchmark(2,&proc)).to be_within(0.1).of(2)
   end
 end
-
 
 describe "race" do
   it "takes an array of procs and returns the one with the shorter runtime" do
