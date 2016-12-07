@@ -1,5 +1,6 @@
 class MyHashSet
   attr_accessor :store
+
   def initialize
     @store = {}
   end
