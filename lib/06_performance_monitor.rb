@@ -1,4 +1,4 @@
-def measure(t=1, &prc)
+def measure(t = 1, &prc)
   start_time = Time.now
   total_time = 0
   t.times do
