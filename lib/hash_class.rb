@@ -6,6 +6,6 @@ class Hash
         combo_hash.delete(k)
       end
     end
-  combo_hash
+    combo_hash
   end
 end

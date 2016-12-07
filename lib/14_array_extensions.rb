@@ -2,7 +2,7 @@ class Array
   def sum
     sum_total = 0
     self.each do |x|
-      sum_total = sum_total + x
+      sum_total += x
     end
     sum_total
   end

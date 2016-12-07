@@ -1,7 +1,7 @@
 class Friend
   def greeting(name = "")
     if name.length > 0
-      "Hello, #{name}!"
+      puts "Hello, #{name}!"
     else
       "Hello!"
     end
